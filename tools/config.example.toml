@@ -1,0 +1,13 @@
+# Copy this file to config.toml (gitignored) and set your real vault_root.
+# vault_root is the ONLY machine-specific value and is personal -- it must never
+# be committed to the public repo. Forward slashes are fine on Windows.
+
+vault_root = "C:/Users/<you>/iCloudDrive/iCloud~md~obsidian/LLM-Wiki-2"
+
+# Mirror mappings as [repo_subdir, vault_subdir] pairs.
+# repo_subdir is relative to the repo root (auto-detected from the script's
+# location). vault_subdir is relative to vault_root.
+mirrors = [
+    ["Templates", "04 Templates"],
+    # ["ChatWorkflows", "ChatWorkflows"],  # uncomment to also mirror workflows
+]
